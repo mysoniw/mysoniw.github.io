@@ -14,7 +14,7 @@ if (window.XMLHttpRequest) {
 }
 
 var getGMapsUrl = function(lat, lng) {
-    return 'http://maps.googleapis.com/maps/api/geocode/json?latlng='+ lat +','+ lng +'&sensor=false';
+    return 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+ lat +','+ lng +'&sensor=false';
 };
 
 var updateCurrentAddress = function(lat, lng) {
