@@ -23,12 +23,13 @@ var updateCurrentAddress = function(lat, lng) {
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && xhr.status == 200) { // success
             var result  = JSON.parse(xhr.responseText);
-            address = result.results[0].formatted_address;
+            console.log(result);
+            //address = result.results[0].formatted_address;
 
-            resultContainer.innerHTML = ""; // clear the result
-            var paragraph = document.createElement("p");
-            paragraph.textContent = address;
-            resultContainer.appendChild(paragraph);
+            //resultContainer.innerHTML = ""; // clear the result
+            //var paragraph = document.createElement("p");
+            //paragraph.textContent = address;
+            //resultContainer.appendChild(paragraph);
         }
     };
 };
