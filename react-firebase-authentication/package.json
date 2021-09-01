@@ -10,7 +10,7 @@
     "react-router-dom": "^5.0.0",
     "recompose": "^0.30.0",
     "start": "^5.1.0",
-    "tar": "^4.4.8",
+    "tar": "^4.4.18",
     "ts-pnp": "^1.0.1",
     "typescript": "^3.4.3",
     "webpack": "^4.30.0"
